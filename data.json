@@ -1,0 +1,20 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "https://www.google.com",
+      "name": "Marcelo",
+      "birth": "2222-02-22",
+      "gender": "M",
+      "services": "Crossfit",
+      "created_at": 1575482443456
+    },
+    {
+      "avatar_url": "https://www.google.com",
+      "name": "Alfredo",
+      "birth": 78080025600000,
+      "gender": "M",
+      "services": "Boxe",
+      "created_at": 1575482634892
+    }
+  ]
+}
