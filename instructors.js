@@ -16,11 +16,22 @@ exports.show = function (req, res) {
 
   if (!foundInstructor) return res.send("Instructor not found")
 
+  function age(timestamp) {
+    const today = new Date()
+    const birthDate = new Date(timestamp)
+
+    let age = today.getFullYear() - birthDate.getFullYear()
+    const month = today.getMonth() - birthDate.getMonth()
+
+    if (month < 0 || month == 0)
+    
+
+  }
+
   const instructor = {
     ...foundInstructor,
-    age: "",
-    gender: "",
-    services: "",
+    age: age(foundInstructor.birth),
+    services: foundInstructor.services.split(","),
     created_at: "",
   }
 

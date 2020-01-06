@@ -17,6 +17,24 @@
       "gender": "F",
       "services": "Spinning",
       "created_at": 1575538552448
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://www.google.com",
+      "name": "Pedro",
+      "birth": 1355270400000,
+      "gender": "M",
+      "services": "Musculação,crossfit",
+      "created_at": 1575915190978
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://www.google.com",
+      "name": "Bruno",
+      "birth": 860198400000,
+      "gender": "M",
+      "services": "Futebol, Musculação",
+      "created_at": 1575938305834
     }
   ]
 }
